@@ -1,34 +1,38 @@
-🏗️ What is MaungRWA?
+# 🚀 MaungRWA
 
-MaungRWA is a Web3 platform that tokenizes real-world assets — rental vehicles and trade invoices — into ERC-1155 NFTs on Polygon. Anyone can buy fractional ownership and receive proportional yield distributions automatically on-chain.
-Real Asset (car / invoice)
-        ↓
-  Minted as NFT (ERC-1155)
-        ↓
-  Sold as fractions → users invest
-        ↓
-  Owner distributes income on-chain
-        ↓
-  Holders claim yield anytime
+> Real assets → On-chain yield
 
-✨ Features
+MaungRWA tokenizes real-world assets (vehicles & invoices) into **ERC-1155 NFTs on Polygon (Amoy Testnet)**, enabling fractional ownership and automated income distribution.
 
-FeatureDescription🚗 Asset TokenizationVehicles & invoices minted as ERC-1155 multi-tokens🔢 Fractional OwnershipBuy as little as 1 fraction — no minimum barrier💰 On-chain YieldIncome distributed proportionally per fraction held📊 Live TVLReal-time total value locked read directly from chain🔒 Reentrancy ProtectedOpenZeppelin ReentrancyGuard on all fund flows✅ Verified ContractSource code verified on Polygonscan
+---
 
-🛠️ Tech Stack
+## ⚡ Flow
 
-Smart Contract          Frontend
-──────────────          ────────
-Solidity 0.8.28         React 18 + Vite
-ERC-1155 (OZ)           Wagmi v2
-Foundry (forge)         Viem
-Polygon Amoy            Custom hooks
+Asset → NFT → Fractions → Income → Claim
 
+---
 
-🚀 Run Locally
+## ✨ Features
 
-cd frontend
+- Fractional ownership  
+- On-chain yield  
+- Real-world assets  
+- Secure & verified  
 
+---
+
+## 🛠️ Stack
+
+Solidity • ERC-1155 • Foundry • Polygon Amoy (Testnet)  
+React • Vite • Wagmi • Viem  
+
+---
+
+## 🚀 Run
+
+```bash
+git clone https://github.com/yourusername/maungrwa
+cd maungrwa
 npm install
-
 npm run dev
+forge build
